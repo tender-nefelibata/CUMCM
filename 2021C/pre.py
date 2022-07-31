@@ -18,7 +18,7 @@ order_data_b.to_excel('订货B.xlsx')
 order_data_c.to_excel('订货C.xlsx')
 
 offer_data_a.to_excel('供货A.xlsx')
-offer_data_b.to_excel('供货B.xlsx')
-offer_data_c.to_excel('供货C.xlsx')
 
-total_a = offer_data_a.sum(axis=1).to_list()
+
+print(order_data.describe())
+print(offer_data.describe())
